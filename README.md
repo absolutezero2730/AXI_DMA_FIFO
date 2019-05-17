@@ -39,3 +39,7 @@ When this experiment is complete, you will be able to:
 7. Single-click the <b>MicroZed Board</b> that matches your configuration. Click <b>Next ></b>.
 8. A project summary is displayed. Click <b>Finish</b>. The Vivado cockpit is now displayed. 
 ## Lab 2: Create and Edit a Block Design
+1. The recommended way to add an embedded processor is through the Block design method via IP Integrator. Select <b>Create Block Design</b>. 
+2. Give the Block Design a name (default: design_1). Click <b>OK</b>.
+3. In the Diagram window, click the <b>Add IP</b> text icon. 
+4. Find the [<b>ZYNQ7 Processing System</b>](https://www.xilinx.com/support/documentation/ip_documentation/processing_system7/v5_5/pg082-processing-system7.pdf) IP. Either double click this or drag and drop to the Diagram window. 
