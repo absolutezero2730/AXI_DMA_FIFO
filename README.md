@@ -23,4 +23,10 @@ Block diagram (Compatible with the above two Modes)：
 For high speed computing design, also for reducing the payload on CPU, the DMA may be the most efficient way of doing so. Why DMA? If we had data coming in from a very fast ASIC readout chip, or a multi-channel ADC device, and we need to store it very quickly through the FPGA to the DDR memory. We can't just rely on the processor to transfer data. This may overkill the intelligent performances of CPU and waste too much of its registers. 
 
 In this tutorial we are using the DMA interface to build a simple data transfer through PL to the DDR memory. The AXI DMA and AXI Data FIFO are connected through the AXIS_MM2S and AXIS_S2MM buses. These two AXIS buses mainly source and sink data stream without address. The processor will communicate through the AXI-lite bus to the DMA for setting up, initiating and monitoring. The AXI_MM2S and AXI_S2MM are memory-mapped AXI buses that connect to the memory controller. 
+
+When this experiment is complete, you will be able to: 
+1. Use [AXI4-Stream Data FIFO](https://www.xilinx.com/support/documentation/ip_documentation/axis_infrastructure_ip_suite/v1_1/pg085-axi4stream-infrastructure.pdf) and [AXI DMA](https://www.xilinx.com/support/documentation/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf)
+2. Use the xaxidma driver on the Xilinx AXI DMA to transfer packets in polling mode
+3. Use the xaxidma driver on the Xilinx AXI DMA to transfer packets in interrupt mode
+4. Get DMA status through UART
 ## Lab 1: Create a New Zynq Project
