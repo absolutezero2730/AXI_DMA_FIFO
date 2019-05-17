@@ -17,4 +17,5 @@ Transfer data from DDR memory to AXI4-Stream Data FIFO and back through AXI DMA
 2. SG_Poll Mode
    + Definition: Transfer packets in Polling Mode when AXIDMA core is configured in Scatter Gather Mode.
    + 由CPU完成的作業步驟包括：初始化DMA並設立傳輸，發送封包，檢查DMA傳送結果(可能重複數次直到傳送結束)，指定發送下一次封包。
+![image](https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/Design%20overview.jpg)
 ## Lab 1: Create a New Zynq Project
