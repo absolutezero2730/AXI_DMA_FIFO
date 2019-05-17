@@ -30,3 +30,9 @@ When this experiment is complete, you will be able to:
 3. Use the xaxidma driver on the Xilinx AXI DMA to transfer packets in interrupt mode
 4. Get DMA status through UART
 ## Lab 1: Create a New Zynq Project
+1. Launch Vivado.
+2. Select <b>File</b> -> <b>New Project</b> or click on <b>Create New Project</b> under Quick Start. 
+3. Click the browse icon. Browse to set the Project location to your desired project location and <b>click Start</b>.
+4. Set the project name to <b>Microzed_7020_AXI_DMA_test</b>. Also verify the <b>Create project subdirectory</b> check box is selected. Click <b>Next ></b>.
+5. The project will be RTL based. Leave the radio button for RTL Project selected. Since this is a brand new project, check the box for <b>Do not specify sources at this time</b>. Click <b>Next ></b>.
+6. In the Select area, select <b>Boards</b>.
