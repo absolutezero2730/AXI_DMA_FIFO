@@ -18,6 +18,7 @@ Transfer data from DDR memory to AXI4-Stream Data FIFO and back through AXI DMA
    + Definition: Transfer packets in Polling Mode when AXIDMA core is configured in Scatter Gather Mode.
    + 由CPU完成的作業步驟包括：初始化DMA並設立傳輸，發送封包，檢查DMA傳送結果(可能重複數次直到傳送結束)，指定發送下一次封包。
 
-Block diagram (硬體概念圖，適用以上敘述之兩種傳送模式)(Compatible with the above two Mode)：
+Block diagram (硬體概念圖，適用以上敘述之兩種傳送模式)(Compatible with the above two Modes)：
 ![image](https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/Design%20overview.jpg)
+For high speed computing design, also for reducing the payload on CPU, the DMA may be the most efficient way of doing so. Why DMA? If we had data coming in from a very fast ASIC readout chip, or a multi-channel ADC device, and we need to store it very quickly through the FPGA to the DDR memory. We can't just rely on the processor to transfer data. This may overkill the intelligent performances of CPU and waste too much of its registers. In this tutorial we are using the DMA interface to build a simple data transfer through PL to DDR memory. The AXI DMA and AXI Data FIFO are connected through the AXIS_MM2S and AXIS_S2MM buses. These two AXIS buses mainly source and sink data stream without address, continuously. The processor will communicate through the AXI-lite bus for setting up, initiating and monitoring the AXI DMA. The AXI_MM2S and AXI_S2MM are memory-mapped AXI buses that connect to the memory controller. 
 ## Lab 1: Create a New Zynq Project
