@@ -113,5 +113,9 @@ When this experiment is complete, you will be able to:
 
 19. Click on <b>Run Connection Automation</b> again to wire the last two AXI master interfaces. Enable the <b>All Automation</b> box. The AXI memory-mapped to stream Master (MM2S Memory Map Read Interface Signals), and the AXI stream to memory-mapped master (S2MM Memory Map Write Interface Signals) will thus be integrated through the <b>AXI SmartConnect</b> to the high performance slave AXI interface with the former mentioned scatter-gather AXI master interface. Click <b>OK</b> to run connections. 
 
+<p align="center">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch15.PNG" width="100%" height="100%">
+</p>
+
 
 ## Lab 3: Export Hardware Platform to SDK
