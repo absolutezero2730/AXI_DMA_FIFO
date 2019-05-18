@@ -123,6 +123,11 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch16.PNG" width="100%" height="100%">
 </p>
 
+21. Click <b>Optimize Routing</b> to make these wires look better. Last, the two interrupts of the DMA need to be connected to the processor's <b>IRQ_F2P</b>. The way to do that is to use a [<b>Concat</b>](https://www.xilinx.com/support/documentation/ip_documentation/xilinx_com_ip_xlconcat/v2_1/pb041-xilinx-com-ip-xlconcat.pdf) IP. Simply click <b>+ (Add IP)</b> to add it into our Diagram. Manually connect the <b>mm2s_introut</b> and <b>s2mm_introut</b> to the <b>In0[0:0]</b> and <b>In1[0:0]</b>. Connect the <b>dout[1:0]</b> to the <b>IRQ_F2P</b>. All things are done now.  
+
+<p align="center">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch17.PNG" width="100%" height="100%">
+</p>
 
 
 
