@@ -40,6 +40,7 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch02.PNG" width="80%" height="80%">
 7. Single-click the <b>MicroZed Board</b> that matches your configuration. Click <b>Next ></b>.
 8. A project summary is displayed. Click <b>Finish</b>. The Vivado cockpit is now displayed. 
+
 ## Lab 2: Create and Edit a Block Design
 1. The recommended way to add an embedded processor is through the Block design method via IP Integrator. Select <b>Create Block Design</b>. 
 2. Give the Block Design a name (default: design_1). Click <b>OK</b>.
