@@ -55,4 +55,12 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch03.PNG" width="80%" height="80%">
 
-5. Similar to the Add IP prompt in the previous step, notice now that the Designer Assistance has provided the hint to Run Block Automation. Click the <b>Run Block Automation</b> link at the top of the window. (Notice the block automation wizard has identified two sources of I/O that need to be made external. One is obvious, the <b>DDR</b> interface. The other is labeled <b>FIXED_IO</b>. FIXED_IO is basically the MIO pin connections. They are labeled FIXED_IO because you cannot change their assignments in this window. The Apply Board Preset checkbox applies the Preset TCL that was included as part of the board definition archive. Leave this checked. For details about how to build a system manually, please see the Avnet Zynq Hardware Development Speedway. The Cross Trigger options may be left Disabled. Click <b>OK</b> to connect these external signals.)
+5. Similar to the Add IP prompt in the previous step, notice now that the Designer Assistance has provided the hint to Run Block Automation. Click the <b>Run Block Automation</b> link at the top of the window. (Notice the block automation wizard has identified two sources of I/O that need to be made external. One is obvious, the <b>DDR</b> interface. The other is labeled <b>FIXED_IO</b>. FIXED_IO is basically the MIO pin connections. They are labeled FIXED_IO because you cannot change their assignments in this window. The Apply Board Preset checkbox applies the Preset TCL that was included as part of the board definition archive. Leave this checked. The Cross Trigger options may be left Disabled. Click <b>OK</b> to connect these external signals.)
+6. You will now see the Zynq block with external I/O.
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch04.PNG" width="60%" height="60%">
+
+7. Click on the <b>Zynq PS</b> and have a look on the Block Diagram. 
+
+
+## Lab 3: Export Hardware Platform to SDK
