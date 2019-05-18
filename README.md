@@ -19,7 +19,9 @@ Transfer data from DDR memory to AXI4-Stream Data FIFO and back through AXI DMA
    + 由CPU完成的作業步驟包括：初始化DMA並設立傳輸，發送封包，檢查DMA傳送結果(可能重複數次直到傳送結束)，指定發送下一次封包。
 
 Block diagram (Compatible with the above two Modes)：
-![image](https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/Design%20overview.png)
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/Design%20overview.png" width="80%" height="80%">
+
 For high speed computing design, also for reducing the payload on CPU, the DMA may be the most efficient way of doing so. Why DMA? If we had data coming in from a very fast ASIC readout chip, or a multi-channel ADC device, and we need to store it very quickly through the FPGA to the DDR memory. We can't just rely on the processor to transfer data. This may overkill the intelligent performances of CPU and waste too much of its registers. 
 
 In this tutorial we are using the DMA interface to build a simple data transfer through PL to the DDR memory. The AXI DMA and AXI Data FIFO are connected through the AXIS_MM2S and AXIS_S2MM buses. These two AXIS buses mainly source and sink data stream without address. The processor will communicate through the AXI-lite bus to the DMA for setting up, initiating and monitoring. The AXI_MM2S and AXI_S2MM are memory-mapped AXI buses that connect to the memory controller. 
@@ -50,3 +52,7 @@ When this experiment is complete, you will be able to:
 2. Give the Block Design a name (default: design_1). Click <b>OK</b>.
 3. In the Diagram window, click the <b>Add IP</b> text icon. 
 4. Find the [<b>ZYNQ7 Processing System</b>](https://www.xilinx.com/support/documentation/ip_documentation/processing_system7/v5_5/pg082-processing-system7.pdf) IP. Either double click this or drag and drop to the Diagram window. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch03.PNG" width="80%" height="80%">
+
+5. Similar to the Add IP prompt in the previous step, notice now that the Designer Assistance has provided the hint to Run Block Automation. Click the <b>Run Block Automation</b> link at the top of the window.
