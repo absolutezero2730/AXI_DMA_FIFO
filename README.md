@@ -20,7 +20,7 @@ Transfer data from DDR memory to AXI4-Stream Data FIFO and back through AXI DMA
 
 Block diagram (Compatible with the above two Modes)：
 
-<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/Design%20overview.png" width="80%" height="80%">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/Design%20Overview.png" width="80%" height="80%">
 
 For high speed computing design, also for reducing the payload on CPU, the DMA may be the most efficient way of doing so. Why DMA? If we had data coming in from a very fast ASIC readout chip, or a multi-channel ADC device, and we need to store it very quickly through the FPGA to the DDR memory. We can't just rely on the processor to transfer data. This may overkill the intelligent performances of CPU and waste too much of its registers. 
 
