@@ -73,6 +73,15 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch07.PNG" width="80%" height="80%">
 
+11. The other interface we need is to access the DDR controller. Go back to the Zynq Block Design section. We need to allow the DMA to read and write from the DDR. We can see from the block diagram we need to enable the <b>High Performance AXI 32b/64b Slave Ports</b>. So we click on that. Choose one of those. PS-PL Configuration -> HP Slave AXI Interface -> <b>S AXI HP0 interface</b>.
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch08.PNG" width="80%" height="80%">
+
+12. One more thing that we need to configure is the interrupts. In the SG_Intr Mode, the CPU will receive interrupts from the DMA. We need to enable the Fabric Interrupts. Refer to Interrupts -> Fabric Interrupts -> PL-PS Interrupt Ports -> <b>IRQ_F2P[15:0]</b>. Check the box and select. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch09.PNG" width="80%" height="80%">
+
+13. Click <b>OK</b>.
 
 
 ## Lab 3: Export Hardware Platform to SDK
