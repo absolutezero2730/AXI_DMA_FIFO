@@ -85,5 +85,9 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch10.PNG" width="60%" height="60%">
 
+14. The 100 MHz clock should feed the two AXI interfaces. Thus we wire the <b>fabric clock (FCLK_CLK0)</b> to the <b>general purpose AXI interface (M_AXI_GP0_ACLK)</b> and the <b>high performance slave interface (S_AXI_HP0_ACLK)</b>. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch11.PNG" width="60%" height="60%">
+
 
 ## Lab 3: Export Hardware Platform to SDK
