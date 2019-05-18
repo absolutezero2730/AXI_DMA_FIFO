@@ -35,7 +35,9 @@ When this experiment is complete, you will be able to:
 3. Click the browse icon. Browse to set the Project location to your desired project location and <b>click Start</b>.
 4. Set the project name to <b>Microzed_7020_AXI_DMA_test</b>. Also verify the <b>Create project subdirectory</b> check box is selected. Click <b>Next ></b>.
 5. The project will be RTL based. Leave the radio button for RTL Project selected. Since this is a brand new project, check the box for <b>Do not specify sources at this time</b>. Click <b>Next ></b>.
+![image](https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch01.PNG)
 6. In the Select area, select <b>Boards</b>.
+![image](https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch02.PNG)
 7. Single-click the <b>MicroZed Board</b> that matches your configuration. Click <b>Next ></b>.
 8. A project summary is displayed. Click <b>Finish</b>. The Vivado cockpit is now displayed. 
 ## Lab 2: Create and Edit a Block Design
