@@ -99,9 +99,11 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch12.PNG" width="80%" height="80%">
 
-16. We don't actually need the <b>AXI streaming status (S_AXIS_STS)</b> and the <b>AXI streaming control ports (M_AXIS_CNTRL)</b>. Double click on the <b>AXI Direct Memory Access</b> to exclude these two ports, which are used in ethernet applications. 
+16. We don't actually need the <b>AXI streaming status (S_AXIS_STS)</b> and the <b>AXI streaming control ports (M_AXIS_CNTRL)</b>. Double click on the <b>AXI Direct Memory Access</b> to exclude these two ports, which are used in ethernet applications. Check the box for <b>Enable Control/Status Stream</b>. Disable it. 
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch13.PNG" width="80%" height="80%">
+
+17. Click on <b>Run Connection Automation</b>
 
 
 
