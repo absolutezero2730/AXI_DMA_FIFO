@@ -117,5 +117,13 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch15.PNG" width="100%" height="100%">
 </p>
 
+20. Click <b>+ (Add IP)</b> to add the [<b>AXI4-Stream Data FIFO</b>](https://www.xilinx.com/support/documentation/ip_documentation/axis_infrastructure_ip_suite/v1_1/pg085-axi4stream-infrastructure.pdf). Connect the <b>AXI streaming master interface (M_AXIS)</b> to the <b>AXI streaming slave interface (S_AXIS_S2MM)</b> of the DMA. Then connect the <b>AXI streaming master interface (M_AXIS_MM2S)</b> of the DMA to the <b>AXI streaming slave interface (S_AXIS)</b> of the FIFO. Then manually connect the <b>clock (s_axis_aclk)</b> and <b>reset (s_axis_aresetn)</b> to the fabric clock (FCLK_CLK0) and the <b>peripheral_aresetn[0:0]</b> of the [<b>Processor System Reset</b>](https://www.xilinx.com/support/documentation/ip_documentation/proc_sys_reset/v5_0/pg164-proc-sys-reset.pdf) IP. 
+
+<p align="center">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch16.PNG" width="100%" height="100%">
+</p>
+
+
+
 
 ## Lab 3: Export Hardware Platform to SDK
