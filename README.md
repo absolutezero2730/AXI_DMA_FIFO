@@ -103,7 +103,7 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch13.PNG" width="80%" height="80%">
 
-17. Click on <b>Run Connection Automation</b>
+17. Click on <b>Run Connection Automation</b>. Enable the <b>All Automation</b> box. If we click it one by one, first for the <b>S_AXI_LITE</b>, we can see it wants to connect the AXI lite interface to the processor’s general purpose AXI master ports with a bridge IP named the [<b>AXI Interconnect</b>](https://www.xilinx.com/support/documentation/ip_documentation/axi_interconnect/v2_1/pg059-axi-interconnect.pdf). Second for the <b>S_AXI_HP0</b>, the high performance slave AXI interface of the PS, vivado wants to connected it to the DMA's <b>scatter-gather AXI master interface (M_AXI_SG)</b> with an [<b>AXI SmartConnect</b>](https://www.xilinx.com/support/documentation/ip_documentation/smartconnect/v1_0/pg247-smartconnect.pdf) IP. 
 
 
 
