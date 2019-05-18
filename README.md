@@ -129,6 +129,9 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch17.PNG" width="100%" height="100%">
 </p>
 
+22. Click the <b>Save</b> button to save the block design and click the <b>Validate Design</b> button to make sure that we haven't make any mistake or mis-connect to these IP cores. We can safely ignore the warning messages (probably due to the some versions of board definition file...) after validating. Click the <b>Validate Design</b> button to make sure twice. 
+
+
 
 
 ## Lab 3: Export Hardware Platform to SDK
