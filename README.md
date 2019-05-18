@@ -68,6 +68,7 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch06.PNG" width="80%" height="80%">
 
-Next have a look on the <b>Clock Configuration</b> section. Click on the <b>PL Fabric Clocks</b>. We can see that we have one of the fabric clocks that has been configured to 100 MHz. We will use that clock for all of logic IPs. 
+9. Next have a look on the <b>Clock Configuration</b> section. Click on the <b>PL Fabric Clocks</b>. We can see that we have one of the fabric clocks that has been configured to 100 MHz. We will use that clock for all of logic IPs. 
+10. The AXI DMA needs access to the DDR memory controller and a configuration interface to exchange information between itself and the CPU. Thus the processor will configure the AXI DMA through an AXI-lite interface and send back the AXI DMA an access for the DDR mapping. 
 
 ## Lab 3: Export Hardware Platform to SDK
