@@ -107,7 +107,9 @@ When this experiment is complete, you will be able to:
 
 18. Click <b>OK</b> to run connection automation. 
 
-
+<p align="center">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch14.PNG" width="100%" height="100%">
+</p>
 
 
 ## Lab 3: Export Hardware Platform to SDK
