@@ -64,5 +64,10 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch05.PNG" width="80%" height="80%">
 
+8. MIO Configuration -> Application Processor Unit -> check the box for <b>Timer 0</b>. Disable it. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch06.PNG" width="80%" height="80%">
+
+Next have a look on the <b>Clock Configuration</b> section. Click on the <b>PL Fabric Clocks</b>. We can see that we have one of the fabric clocks that has been configured to 100 MHz. We will use that clock for all of logic IPs. 
 
 ## Lab 3: Export Hardware Platform to SDK
