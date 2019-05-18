@@ -105,6 +105,9 @@ When this experiment is complete, you will be able to:
 
 17. Click on <b>Run Connection Automation</b>. Enable the <b>All Automation</b> box. If we click it one by one, first for the <b>S_AXI_LITE</b>, we can see it wants to connect the AXI lite interface to the processor’s general purpose AXI master ports with a bridge IP named the [<b>AXI Interconnect</b>](https://www.xilinx.com/support/documentation/ip_documentation/axi_interconnect/v2_1/pg059-axi-interconnect.pdf). Second for the <b>S_AXI_HP0</b>, the high performance slave AXI interface of the PS, vivado wants to connected it to the DMA's <b>scatter-gather AXI master interface (M_AXI_SG)</b> with an [<b>AXI SmartConnect</b>](https://www.xilinx.com/support/documentation/ip_documentation/smartconnect/v1_0/pg247-smartconnect.pdf) IP. 
 
+18. Click <b>OK</b> to run connection automation. 
+
+
 
 
 ## Lab 3: Export Hardware Platform to SDK
