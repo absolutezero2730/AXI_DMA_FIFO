@@ -60,7 +60,9 @@ When this experiment is complete, you will be able to:
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch04.PNG" width="60%" height="60%">
 
-7. Click on the <b>Zynq PS</b> and have a look on the Block Diagram. 
+7. Double click on the <b>Zynq PS</b> and have a look on the Block Diagram. In the Application Processor Unit, find the <b>TTC</b> block and simply click it. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch05.PNG" width="80%" height="80%">
 
 
 ## Lab 3: Export Hardware Platform to SDK
