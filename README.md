@@ -95,4 +95,14 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch11.PNG" width="65%" height="65%">
 </p>
 
+15. Click <b>+ (Add IP)</b> to add the [<b>AXI Direct Memory Access</b>](https://www.xilinx.com/support/documentation/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf). 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch12.PNG" width="80%" height="80%">
+
+16. We don't actually need the <b>AXI streaming status (S_AXIS_STS)</b> and the <b>AXI streaming control ports (M_AXIS_CNTRL)</b>. Double click on the <b>AXI Direct Memory Access</b> to exclude these two ports, which are used in ethernet applications. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch13.PNG" width="80%" height="80%">
+
+
+
 ## Lab 3: Export Hardware Platform to SDK
