@@ -58,7 +58,9 @@ When this experiment is complete, you will be able to:
 5. Similar to the Add IP prompt in the previous step, notice now that the Designer Assistance has provided the hint to Run Block Automation. Click the <b>Run Block Automation</b> link at the top of the window. (Notice the block automation wizard has identified two sources of I/O that need to be made external. One is obvious, the <b>DDR</b> interface. The other is labeled <b>FIXED_IO</b>. FIXED_IO is basically the MIO pin connections. They are labeled FIXED_IO because you cannot change their assignments in this window. The Apply Board Preset checkbox applies the Preset TCL that was included as part of the board definition archive. Leave this checked. The Cross Trigger options may be left Disabled. Click <b>OK</b> to connect these external signals.)
 6. You will now see the Zynq block with external I/O.
 
+<p align="center">
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch04.PNG" width="60%" height="60%">
+</p>
 
 7. Double click on the <b>Zynq PS</b> and have a look on the Block Diagram. In the Application Processor Unit, find the <b>TTC</b> block and simply click it. 
 
@@ -83,11 +85,14 @@ When this experiment is complete, you will be able to:
 
 13. Click <b>OK</b>. Now the ZYNQ7 Processing System is properly configured. 
 
+<p align="center">
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch10.PNG" width="60%" height="60%">
+</p>
 
 14. The 100 MHz clock should feed the two AXI interfaces. Thus we wire the <b>fabric clock (FCLK_CLK0)</b> to the <b>general purpose AXI interface (M_AXI_GP0_ACLK)</b> and the <b>high performance slave interface (S_AXI_HP0_ACLK)</b>. 
 
-<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch11.PNG" width="60%" height="60%">
-
+<p align="center">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch11.PNG" width="65%" height="65%">
+</p>
 
 ## Lab 3: Export Hardware Platform to SDK
