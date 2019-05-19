@@ -147,13 +147,28 @@ When this experiment is complete, you will be able to:
 
 3. Type a name for the application. Click <b>Next</b>. 
 
-<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch20.PNG" width="30%" height="30%">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch20.PNG" width="50%" height="50%">
 
 4. On the templates page, select the <b>Empty Application</b> template and click <b>Finish</b>. 
 
-<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch21.PNG" width="30%" height="30%">
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch21.PNG" width="50%" height="50%">
 
 5. From the Project Explorer, open the dma_test/src folder. Then open a File Manager (開啟檔案總管). A DMA Poll_Mode example code can be found here: <b>C:\Xilinx\SDK\2018.3\data\embeddedsw\XilinxProcessorIPLib\drivers\axidma_v9_3\examples\xaxidma_example_sg_poll.c</b>. Drag the file from the file manager to the dma/src folder directly. (直接將檔案橫拉進SDK Project Explorer中的dma_test/src裡) On the appeared window, select <b>Copy files</b> and click <b>OK</b>. The file has now been copied to the src folder. 
 6. Set the Boot Mode jumpers to Cascaded JTAG Mode (MicroZed: MIO[5:2] = GND. Set JP3, JP2, and JP1 to positions 1-2). Connect the UART (micro-USB) to your PC. Connect a Platform Cable or Digilent Programming cable from your PC to the 2x7 JTAG socket. 
 7. Go back to the xilinx SDK. select <b>Xilinx -> Program FPGA</b>. Make sure that the connection is good. Then click <b>Program</b>. 
-8. After the FPGA programing is complete. <b>We launch Putty.exe</b>. On the session template, set the connection type to serial. Then refer to the serial template, select a serial line (ex: COM3). Note: you can open your device manager to confirm this. Set the Speed (baud rate) to 115200, Data bits 8 and stop bits 1. 
+8. After the FPGA programing is complete. <b>We launch Putty.exe</b>. On the session template, set the connection type to serial. Then refer to the serial template, select a serial line (ex: COM3). Note: you can open your device manager to confirm this. Set the Speed (baud rate) to 115200, Data bits 8 and stop bits 1, Parity None. Click <b>Open</b>.
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch22.PNG" width="50%" height="50%">
+
+
+## Lab 4: Run DMA Poll Mode Application
+1. To run the test, click on dma_test application in the Project Explorer. Then click on run configurations (<b>Run -> Run Configuration</b>) from the menu bar. 
+2. Double click on the <b>Xilinx C/C++ Application (System Debugger)</b>. And we can then click <b>Run</b>. It runs the software application on the processor. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch23.png" width="80%" height="80%">
+
+3. After the application is executed, we can look out for the results from the Putty window. 
+
+
+
+
