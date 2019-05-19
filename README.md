@@ -155,4 +155,5 @@ When this experiment is complete, you will be able to:
 
 5. From the Project Explorer, open the dma_test/src folder. Then open a File Manager (開啟檔案總管). A DMA Poll_Mode example code can be found here: <b>C:\Xilinx\SDK\2018.3\data\embeddedsw\XilinxProcessorIPLib\drivers\axidma_v9_3\examples\xaxidma_example_sg_poll.c</b>. Drag the file from the file manager to the dma/src folder directly. (直接將檔案橫拉進SDK Project Explorer中的dma_test/src裡) On the appeared window, select <b>Copy files</b> and click <b>OK</b>. The file has now been copied to the src folder. 
 6. Set the Boot Mode jumpers to Cascaded JTAG Mode (MicroZed: MIO[5:2] = GND. Set JP3, JP2, and JP1 to positions 1-2). Connect the UART (micro-USB) to your PC. Connect a Platform Cable or Digilent Programming cable from your PC to the 2x7 JTAG socket. 
-
+7. Go back to the xilinx SDK. select <b>Xilinx -> Program FPGA</b>. Make sure that the connection is good. Then click <b>Program</b>. 
+8. After the FPGA programing is complete. <b>We launch Putty.exe</b>. On the session template, set the connection type to serial. Then refer to the serial template, select a serial line (ex: COM3). Note: you can open your device manager to confirm this. Set the Speed (baud rate) to 115200, Data bits 8 and stop bits 1. 
