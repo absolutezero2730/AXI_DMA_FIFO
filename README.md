@@ -152,3 +152,6 @@ When this experiment is complete, you will be able to:
 4. On the templates page, select the <b>Empty Application</b> template and click <b>Finish</b>. 
 
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch21.PNG" width="30%" height="30%">
+
+5. From the Project Explorer, open the dma_test/src folder. Then open a File Manager (開啟檔案總管). A DMA Poll_Mode example code can be found here: <b>C:\Xilinx\SDK\2018.3\data\embeddedsw\XilinxProcessorIPLib\drivers\axidma_v9_3\examples\xaxidma_example_sg_poll.c. Drag the file from the file manager to the dma/src folder directly. (直接將檔案橫拉進SDK Project Explorer中的dma_test/src裡) On the appeared window, select <b>Copy files</b> and click <b>OK</b>. 
+
