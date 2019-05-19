@@ -136,7 +136,11 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch18.png" width="50%" height="50%">
 
 24. Navigate to the bottom of Flow Navigator. Click and run the <b>Generate Bitstream</b>. This may take a while. 
-25. In the Vivado tool, select <b>File -> Export -> Export Hardware</b>. Check the box to Include bitstream. 
+25. In the Vivado tool, select <b>File -> Export -> Export Hardware</b>. Check the box to Include bitstream. Click <b>OK</b> to export hardware. 
 
 
 ## Lab 3: Export Hardware Platform to SDK
+1. Now to launch SDK, select <b>File -> Launch SDK</b>. Click <b>OK</b>.
+2. Now being in SDK we want to create an application. Start by clicking <b>File -> New -> Application Project</b>.
+
+
