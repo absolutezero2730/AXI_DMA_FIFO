@@ -141,6 +141,14 @@ When this experiment is complete, you will be able to:
 
 ## Lab 3: Export Hardware Platform to SDK
 1. Now to launch SDK, select <b>File -> Launch SDK</b>. Click <b>OK</b>.
-2. Now being in SDK we want to create an application. Start by clicking <b>File -> New -> Application Project</b>.
+2. Now being in SDK we want to create an application. Start by clicking <b>File -> New -> Application Project</b>. 
 
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch19.png" width="50%" height="50%">
 
+3. Type a name for the application. Click <b>Next</b>. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch20.PNG" width="30%" height="30%">
+
+4. On the templates page, select the <b>Empty Application</b> template and click <b>Finish</b>. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch21.PNG" width="30%" height="30%">
