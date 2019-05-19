@@ -131,7 +131,9 @@ When this experiment is complete, you will be able to:
 
 22. Click the <b>Save</b> button to save the block design and click the <b>Validate Design</b> button to make sure that we haven't make any mistake or mis-connect to these IP cores. We can safely ignore the warning messages (probably due to the some versions of board definition file...) after validating. Click the <b>Validate Design</b> button to make sure twice. Click <b>OK</b> to close the message window. 
 
-23. Save the design again. 
+23. Save the design again. Generate the HDL Wrapper by clicking Source -> design_1 (design_1.bd) -> right click -> Create HDL Wrapper. <b>Let Vivado manage wrapper and auto-update</b>. Click <b>OK</b>. 
+
+<img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch18.png" width="50%" height="50%">
 
 
 
