@@ -175,5 +175,16 @@ Successfully ran AXI DMA SG Polling Example
 ```
 
 ## Lab 5: Run DMA Interrupt Mode Application
-
-
+1. Left the Putty terminal being opened, now click <b>File -> New -> Application Project</b>. 
+2. Type a name for the application (dma_intr_test). Click <b>Next</b>. 
+3. On the templates page, select the <b>Empty Application</b> template and click <b>Finish</b>. 
+4. From the Project Explorer, open the dma_intr_test/src folder. Then open a File Manager. A DMA Interrupt_Mode example code can be found here: <b>C:\Xilinx\SDK\2018.3\data\embeddedsw\XilinxProcessorIPLib\drivers\axidma_v9_3\examples\xaxidma_example_sg_intr.c</b>. Drag the file from the file manager to the dma/src folder directly. Then, on the appeared window, again, select <b>Copy files</b> and click <b>OK</b>. The file has now been copied to the src folder. 
+5. Right click the dma_intr_test application in the Project Explorer and refresh it. 
+6. Click on dma_intr_test application in the Project Explorer. Then click on run configurations (<b>Run -> Run Configuration</b>) from the menu bar again. 
+7. Double click on the <b>Xilinx C/C++ Application (System Debugger)</b>. And we can then click <b>Run</b>. It runs the software application on the processor.
+8. After the application is executed, we can look out for the results from the Putty window. 
+```
+--- Entering main() ---
+Successfully ran AXI DMA SG interrupt Example
+--- Exiting main() ---
+```
