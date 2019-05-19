@@ -174,6 +174,6 @@ Successfully ran AXI DMA SG Polling Example
 --- Exiting main() ---
 ```
 
-
+## Lab 5: Run DMA Interrupt Mode Application
 
 
