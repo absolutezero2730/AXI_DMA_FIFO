@@ -168,6 +168,11 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch23.png" width="80%" height="80%">
 
 3. After the application is executed, we can look out for the results from the Putty window. 
+```
+--- Entering main() ---
+Successfully ran AXI DMA SG Polling Example
+--- Exiting main() ---
+```
 
 
 
