@@ -154,6 +154,5 @@ When this experiment is complete, you will be able to:
 <img src="https://github.com/absolutezero2730/AXI_DMA_FIFO/blob/master/catch21.PNG" width="30%" height="30%">
 
 5. From the Project Explorer, open the dma_test/src folder. Then open a File Manager (開啟檔案總管). A DMA Poll_Mode example code can be found here: <b>C:\Xilinx\SDK\2018.3\data\embeddedsw\XilinxProcessorIPLib\drivers\axidma_v9_3\examples\xaxidma_example_sg_poll.c</b>. Drag the file from the file manager to the dma/src folder directly. (直接將檔案橫拉進SDK Project Explorer中的dma_test/src裡) On the appeared window, select <b>Copy files</b> and click <b>OK</b>. The file has now been copied to the src folder. 
-6. Set the Boot Mode jumpers to Cascaded JTAG Mode. (MicroZed: MIO[5:2] = GND. Set JP3, JP2, and JP1 to positions 1-2.)
-7. Connect the UART (micro-USB) to your PC. Connect a Platform Cable or Digilent Programming cable from your PC to the 2x7 JTAG socket. 
+6. Set the Boot Mode jumpers to Cascaded JTAG Mode (MicroZed: MIO[5:2] = GND. Set JP3, JP2, and JP1 to positions 1-2). Connect the UART (micro-USB) to your PC. Connect a Platform Cable or Digilent Programming cable from your PC to the 2x7 JTAG socket. 
 
