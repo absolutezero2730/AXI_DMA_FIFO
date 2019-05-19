@@ -1,0 +1,8 @@
+21:23:55 **** Incremental Build of configuration Debug for project dma_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+21:23:56 Build Finished (took 211ms)
+
