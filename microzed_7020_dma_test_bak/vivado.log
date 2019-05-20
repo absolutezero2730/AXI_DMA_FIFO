@@ -2,93 +2,289 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Sun May 19 21:01:37 2019
-# Process ID: 3000
-# Current directory: C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10840 C:\Users\coffe\Xilinx\The_zynq_book\AXI_DMA_Tutorial01\microzed_7020_dma_test_bak\microzed_7020_dma_test_bak.xpr
-# Log file: C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/vivado.log
-# Journal file: C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak\vivado.jou
+# Start of session at: Mon May 20 11:05:56 2019
+# Process ID: 10100
+# Current directory: C:/Users/coffe/OneDrive/文件/GitHub/AXI_DMA_FIFO/microzed_7020_dma_test_bak
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5816 C:\Users\coffe\OneDrive\文件\GitHub\AXI_DMA_FIFO\microzed_7020_dma_test_bak\microzed_7020_dma_test_bak.xpr
+# Log file: C:/Users/coffe/OneDrive/文件/GitHub/AXI_DMA_FIFO/microzed_7020_dma_test_bak/vivado.log
+# Journal file: C:/Users/coffe/OneDrive/文件/GitHub/AXI_DMA_FIFO/microzed_7020_dma_test_bak\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.xpr
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak'
+open_project C:/Users/coffe/OneDrive/文件/GitHub/AXI_DMA_FIFO/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 794.520 ; gain = 168.988
-open_bd_design {C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/design_1.bd}
-Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
-Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
-Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
-Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
-Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
-Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
-Adding cell -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
-Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
-Successfully read diagram <design_1> from BD file <C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/design_1.bd>
-open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1144.852 ; gain = 92.922
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 794.926 ; gain = 166.660
 update_compile_order -fileset sources_1
-connect_bd_net [get_bd_pins axis_data_fifo_0/s_axis_aresetn] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
-validate_bd_design
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /processing_system7_0/IRQ_F2P
-validate_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1144.852 ; gain = 0.000
-save_bd_design
-Wrote  : <C:\Users\coffe\Xilinx\The_zynq_book\AXI_DMA_Tutorial01\microzed_7020_dma_test_bak\microzed_7020_dma_test_bak.srcs\sources_1\bd\design_1\design_1.bd> 
-Wrote  : <C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
-VHDL Output written to : C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/synth/design_1.v
-VHDL Output written to : C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/sim/design_1.v
-VHDL Output written to : C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
-INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
-Exporting to file c:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0.hwh
-Generated Block Design Tcl file c:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0_bd.tcl
-Generated Hardware Definition File c:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/design_1_axi_smc_0.hwdef
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_data_fifo_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
-INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
-Exporting to file C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
-Generated Block Design Tcl file C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
-Generated Hardware Definition File C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.srcs/sources_1/bd/design_1/synth/design_1.hwdef
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 68168676865e6a57; cache size = 23.919 MB.
-[Sun May 19 21:17:20 2019] Launched synth_1...
-Run output will be captured here: C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.runs/synth_1/runme.log
-[Sun May 19 21:17:20 2019] Launched impl_1...
-Run output will be captured here: C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.runs/impl_1/runme.log
-launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1300.723 ; gain = 155.871
-file copy -force C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.runs/impl_1/design_1_wrapper.sysdef C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.sdk/design_1_wrapper.hdf
+write_project_tcl
+ERROR: [Vivado-projutils-2] Missing value for option 'file', please type 'write_project_tcl -help' for usage info.
+ERROR: [Common 17-39] 'send_msg_id' failed due to earlier errors.
+write_project_tcl -help
+write_project_tcl
 
-launch_sdk -workspace C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.sdk -hwspec C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-393] Launching SDK...
-INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.sdk -hwspec C:/Users/coffe/Xilinx/The_zynq_book/AXI_DMA_Tutorial01/microzed_7020_dma_test_bak/microzed_7020_dma_test_bak.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
-exit
-INFO: [Common 17-206] Exiting Vivado at Sun May 19 23:14:16 2019...
+Description: 
+(User-written application)
+Export Tcl script for re-creating the current project
+
+
+Syntax: 
+write_project_tcl  [-paths_relative_to <arg>] [-origin_dir_override <arg>]
+                   [-target_proj_dir <arg>] [-force] [-all_properties]
+                   [-no_copy_sources] [-absolute_path] [-dump_project_info]
+                   [-use_bd_files] [-internal] [-quiet] [-verbose] <file>
+
+Returns: 
+true (0) if success, false (1) otherwise
+
+
+Usage: 
+  Name                    Description
+  -----------------------------------
+  [-paths_relative_to]    Override the reference directory variable for 
+                          source file relative paths
+                          Default: Script output directory path
+  [-origin_dir_override]  Set 'origin_dir' directory variable to the 
+                          specified value (Default is value specified with 
+                          the -paths_relative_to switch)
+                          Default: None
+  [-target_proj_dir]      Directory where the project needs to be restored
+                          Default: Current project directory path
+  [-force]                Overwrite existing tcl script file
+  [-all_properties]       Write all properties (default & non-default) for 
+                          the project object(s)
+  [-no_copy_sources]      Do not import sources even if they were local in 
+                          the original project
+                          Default: 1
+  [-absolute_path]        Make all file paths absolute wrt the original 
+                          project directory
+  [-dump_project_info]    Write object values
+  [-use_bd_files]         Use BD sources directly instead of writing out 
+                          procs to create them
+  [-internal]             Print basic header information in the generated tcl
+                          script
+  [-quiet]                Execute the command quietly, returning no messages 
+                          from the command.
+  [-verbose]              Suspend message limits during command execution
+  <file>                  Name of the tcl script file to generate
+
+Categories: 
+xilinxtclstore, projutils, user-written
+Description:
+
+  Create a Tcl script to re-create the current project. The generated script
+  will contain the Tcl commands for creating the project, setting the project
+  type, creating filesets, adding/importing source files, and defining runs and
+  run properties. The re-created project will be functionally equivalent to
+  the original project.
+
+  This generated Tcl project script and the various design sources can be stored
+  in a version control system for source file management and project archival.
+
+  To re-create the project, you should source the generated Tcl script in a 
+  Vivado Tcl shell from the same directory where the script was generated. If the
+  original project already exists in the same project directory, the script may
+  fail with an error message that the project already exists. In this case you may
+  want to run the script from a different directory path or update the generated
+  script by adding a "-force" switch to the "create_project" command. 
+
+  In the generated Tcl script, the project source files are referenced relative to
+  the "origin_dir" variable. By default, the source files are referenced relative
+  to the directory where the tcl script is generated. The "origin_dir" is set to "."
+  (the current tcl script directory). When the script is executed from this directory,
+  any source files will be referenced relative to this 'origin_dir' path value.
+
+  In the case where the script is sourced from a different directory or physically
+  moved to a different directory, then the "origin_dir" variable MUST be manually set
+  relative to the new directory. Manually set the "origin_dir" to make sure that the
+  source files are correctly referenced relative to the original location.
+
+  You can have the "origin_dir" automatically set to a directory of your choice by 
+  using the -paths_relative_to option. All the source file paths will be defined
+  relative to the directory specified with this option.
+ 
+  If -absolute_path is specified, the project source files will be referenced
+  using absolute paths only. In this case, the script can be executed from any
+  directory provided these absolute paths are accessible in the same filesystem. 
+
+  If the original project contains IP cores, the following rules apply in the generated
+  script while re-creating the project:-
+
+  1. The IP will not be regenerated, if it was generated in the original project.
+
+    In this case, the script will "add" the IP from the original project with
+    generated synthesis/simulation products.
+ 
+  2. The IP will be generated, if it was not generated in the original project.
+  
+    In this case, the script will "add" the IP from the original project and 
+    create OOC synthesis runs for generating the synthesis/simulation products.
+
+  If the original project had completed runs, those runs will be re-created with
+  the same settings in the generated project; however those runs will not be
+  automatically launched in order to save runtime.
+
+Arguments:
+
+  -paths_relative_to - (Optional) Specify the directory path relative to which
+  the sources will referenced when re-creating the project. The path will be
+  set for the "origin_dir" variable in the generated script.
+
+  -target_proj_dir - (Optional) Specify the directory path where the project
+  will be recreated. The tool will write "create_project" command with the
+  directory path specified with this switch.
+
+  -force - (Optional) Overwrite an existing project script file of the same
+  name. If the script file already exists, the tool returns an error unless
+  the -force argument is specified. 
+
+  -all_properties - (Optional) Write all properties (default and non-default)
+  for the project. The tool will write "set_property" commands for setting the
+  properties for objects like project, filesets, files, runs etc. 
+
+  Note: By default, if the -all_properties switch is not specified, then only
+  the non-default properties will be written to the script.
+
+  -no_copy_sources - (Optional) Do not import sources even if they are local to
+  the original project. The tool will not import the files that were local in
+  the original project into the new project. If the design contains BD sources then
+  -use_bd_files switch must also be provided.
+
+  -absolute_path - (Optional) Make all file paths absolute in the generated script.
+  This allows running the script from any location in that filesystem. By default the 
+  file paths will be relative to the origin_dir variable.
+
+  -dump_project_info - (Optional) Dump information about all properties to two text files, 
+  <project_name>_dump.txt (short), and <project_name>_def_val.txt (detailed).
+
+  -use_bd_files - (Optional) Use block design sources directly instead of writing out
+  procs to create them. If the -no_copy_sources switch is provided the BD files will be 
+  added (but not copied locally) to the project. Otherwise the files will be imported 
+  (copied locally) to the project.
+
+  -internal - (Optional) Print only basic header information in the generated tcl script.
+  By default information about required file sources will also be part of the header.
+
+  -quiet - (Optional) Execute the command quietly, returning only ERROR messages. 
+
+  -verbose - (Optional) Temporarily override any message limits and return all
+  messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+  <file> - (Required) The name of the output Tcl script file to be created by
+   the write_project_tcl command. The tool will apply an extension of '.tcl' if
+   a file extension is not supplied. 
+
+Examples:
+
+  The following example exports a Tcl script named "recreate.tcl" for the test project:-
+  
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr
+    % write_project_tcl recreate.tcl
+    % close_project
+
+  The following example exports a Tcl script named "recreate.tcl" for the test
+  project in the "./script" directory and specifies the "/tmp/test" directory path
+  in the "create_project" command. When the "recreate.tcl" script is sourced in the
+  Vivado Tcl shell, the project will be re-created in "/tmp/test" directory:-
+
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr
+    % write_project_tcl -target_proj_dir "/tmp/test" ./script/recreate.tcl
+    % close_project
+    % source script/recreate.tcl
+
+  The following Tcl commands exports Tcl script for the current project and writes
+  all the properties, both default or non-default values:-
+
+  % write_project_tcl -all_properties recreate.tcl
+
+  The following Tcl commands exports Tcl script for the current project and adds files
+  that are local in this project. The recreated project will reference these files:-
+
+  % write_project_tcl -no_copy_sources recreate.tcl
+
+  The following Tcl and shell commands opens a test project, exports "recreate.tcl"
+  script for the current project in the current working directory, creates a new
+  project in ./my_test directory, prints the list of files in the new project, prints
+  the current project settings and then closes the newly created project:-
+
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr
+    % write_project_tcl -force recreate.tcl
+    % close_project
+    % exit
+
+  From OS shell:
+    # mkdir my_test
+    # cd my_test
+    # vivado -mode batch -source ../recreate.tcl -tclargs --origin_dir ..
+
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr 
+    % get_files -of_objects [get_filesets sources_1]
+    % report_property [current_project]
+    % close_project
+
+  The following Tcl commands creates a new project named bft_test, adds files to the
+  project, sets the fileset property, exports a tcl script named "bft.tcl" in the current
+  working directory, creates a new project in "./my_bft" directory, prints the list of
+  files in the new project (test_1.v and test_2.v), prints the "verilog_define" property
+  value and then closes the newly created project:-
+
+  Start Vivado in tcl mode and execute following commands:
+    % create_project bft_test ./bft_test
+    % add_files test_1.v
+    % add_files test_2.v
+    % set_property verilog_define {a=10} [get_filesets sources_1]
+    % write_project_tcl -force bft.tcl
+    % close_project
+    % exit
+
+  From OS shell:
+    # mkdir my_bft
+    # cd my_bft
+    # vivado -mode batch -source ../bft.tcl -tclargs --origin_dir ..
+    
+  Start Vivado in tcl mode and execute following commands:
+    % open_project bft_test/bft_test.xpr 
+    % get_files -of_objects [get_filesets sources_1]
+    % get_property verilog_define [get_filesets sources_1]
+    % close_project
+
+See Also:
+
+   *  add_files
+   *  archive_project
+   *  close_project
+   *  create_project
+   *  current_project
+   *  get_files
+   *  get_property
+   *  open_project
+   *  report_property
+   *  set_property
+write_project_tcl -no_copy_sources build_microzed_7020.tcl
+ERROR: [Vivado-projutils-19] This design contains BD sources. The option -no_copy_sources cannot be used without -use_bd_files. Please remove -no_copy_sources if you wish to write out BD's as procs in the project tcl, otherwise add the option -use_bd_files to directly include the *.bd files to the new project 
+ERROR: [Common 17-39] 'send_msg_id' failed due to earlier errors.
+write_project_tcl -all_properties build_microzed_7020.tcl
+INFO: [BD 5-453] Writing out BD creation steps for design_1 as a TCL proc
+INFO: [Vivado-projutils-8] Tcl script 'build_microzed_7020.tcl' generated in output directory 'C:/Users/coffe/OneDrive/文件/GitHub/AXI_DMA_FIFO/microzed_7020_dma_test_bak'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set wth respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source build_microzed_7020.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+write_project_tcl: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1081.039 ; gain = 31.684
